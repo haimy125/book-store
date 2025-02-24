@@ -25,6 +25,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:text="@string/label_name"/>
 
@@ -43,6 +44,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_category_require"/>
@@ -58,6 +60,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_description"/>
@@ -65,11 +68,12 @@
             <EditText
                 android:id="@+id/edt_description"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="150dp"
                 android:layout_marginTop="@dimen/define_dimen_4"
                 android:background="@drawable/bg_white_corner_6_border_gray"
+                android:gravity="top|start"
                 android:imeOptions="actionNext"
-                android:inputType="text"
+                android:inputType="textMultiLine"
                 android:padding="@dimen/define_dimen_12"
                 android:textColor="@color/textColorPrimary"
                 android:textSize="@dimen/text_size_small"/>
@@ -77,6 +81,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_price_require"/>
@@ -115,6 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_size_small"
+                android:textStyle="bold"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_promotion"/>
 
@@ -154,6 +160,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="@dimen/text_size_small"
+                android:textStyle="bold"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_image"/>
 
@@ -172,6 +179,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_image_large"/>
@@ -191,6 +199,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textStyle="bold"
                 android:textSize="@dimen/text_size_small"
                 android:layout_marginTop="@dimen/define_dimen_16"
                 android:text="@string/label_product_info"/>
